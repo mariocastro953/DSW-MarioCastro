@@ -1,0 +1,73 @@
+header{
+    background-color:#e0fd5d ;
+    text-align: center;
+
+
+}
+
+nav{
+    background-color:#a6ede1;
+}
+
+ul ,  li {
+    list-style : ninguno;
+}
+
+ nav  >  li {
+    float : izquierda;
+}
+
+nav  li  a {
+    color :black ; 
+    text-decoration:none;
+   padding : 10 px  12 px ;
+   display :block;
+}
+
+  nav  li  ul {
+    display : none;
+    position : absolute;
+    min-width: 140 px ;
+}
+
+nav  li :hover  >  ul {
+    display : block;
+}
+
+nav  li  ul  li {
+    position: relative;
+}
+
+nav  li  ul  li  ul {
+    right: -140 píxeles ;
+    top : 0 píxeles ;
+}
+ul.nav-item{
+    height: 0;
+    overflow:hidden;
+}
+#menu:target .nav-item{
+    height: 15.8em;
+}
+section{
+    background-color:#FFF7BC ;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+article{
+
+    background-color:#FFF7BC ;
+    grid-column:1/4 ;
+    
+}
+
+aside{
+    background-color:#FF8080 ;
+    grid-column: 4/5;
+}
+
+footer{
+    background-color:#C0EDA6 ;
+    padding: 20px;
+}
